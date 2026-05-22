@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cadastro - Petitos</title>
+    <link rel="stylesheet" href="CSS/estilo3.css">
+</head>
+<body>
+    <header>
+        <div class="logo">🐾 Petitos</div>
+    </header>
+    <main class="container">
+        <h2>Cadastro do Cliente</h2>
+        <form id="cadastroForm">
+            <label>Nome</label>
+            <input type="text" id="nome">
+            <label>Email</label>
+            <input type="email" id="email">
+            <label>Senha</label>
+            <input type="password" id="senhaCadastro">
+            <label>Telefone</label>
+            <input type="tel" id="telefone">
+            <label>Data de nascimento</label>
+            <input type="date" id="nascimento">
+            <label>Tipo de pet</label>
+            <select id="tipoPet">
+                <option>Cachorro</option>
+                <option>Gato</option>
+                <option>Passarinho</option>
+                <option>Hamster</option>
+                <option>Coelho</option>
+                <option>Animais exóticos em geral</option>
+            </select>
+            <label>Serviços desejados</label>
+            <div class="checkbox">
+                <label class="check-item"><input type="checkbox" value="Banho"> Banho</label>
+                <label class="check-item"><input type="checkbox" value="Tosa"> Tosa</label>
+                <label class="check-item"><input type="checkbox" value="Consulta"> Consulta</label>
+                <label class="check-item"><input type="checkbox" value="Brinquedinhos"> Brinquedinhos</label>
+                <label class="check-item"><input type="checkbox" value="Rações"> Rações</label>
+                <label class="check-item"><input type="checkbox" value="Acessórios"> Acessórios</label>
+            </div>
+            <label>Estilo do formulário</label>
+            <select id="tema">
+                <option value="default">Default</option>
+                <option value="custom">Custom</option>
+            </select>
+            <p id="mensagemEstilo">Estilo padrão ativado.</p>
+            <button type="submit">Enviar Cadastro</button>
+        </form>
+    </main>
+    <footer>
+        Desenvolvido por Eloiza e Leslie
+    </footer>
+    <script src="script.js"></script>
+</body>
+</html>
